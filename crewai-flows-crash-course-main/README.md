@@ -1,3 +1,6 @@
+conda create --name crewai-flows
+conda activate crewai-flows
+
 # Project Setup
 
 This project requires certain dependencies to be installed for proper functioning. Follow the instructions below to set up your environment.
