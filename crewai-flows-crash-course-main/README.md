@@ -5,6 +5,8 @@ crewai install
 kickoff = "demo_flow.main:kickoff"
 plot = "demo_flow.main:plot"
 
+crewai flow kickoff
+
 # Project Setup
 
 This project requires certain dependencies to be installed for proper functioning. Follow the instructions below to set up your environment.
