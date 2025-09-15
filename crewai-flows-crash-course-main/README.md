@@ -2,6 +2,9 @@ conda create --name crewai-flows
 conda activate crewai-flows
 crewai install
 
+kickoff = "demo_flow.main:kickoff"
+plot = "demo_flow.main:plot"
+
 # Project Setup
 
 This project requires certain dependencies to be installed for proper functioning. Follow the instructions below to set up your environment.
