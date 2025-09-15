@@ -6,6 +6,7 @@ kickoff = "demo_flow.main:kickoff"
 plot = "demo_flow.main:plot"
 
 crewai flow kickoff
+crewai flow plot
 
 # Project Setup
 
