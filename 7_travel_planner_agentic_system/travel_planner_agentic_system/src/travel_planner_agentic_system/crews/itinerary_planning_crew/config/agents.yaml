@@ -27,7 +27,7 @@ activity_specialist:
 logistics_coordinator:
   role: >
     Travel Logistics and Transportation Expert
-  goal: >  
+  goal: >
     Optimize transportation, timing, and practical logistics for the itinerary
     in {destination}, ensuring smooth transitions between activities and
     realistic travel times within the daily schedule

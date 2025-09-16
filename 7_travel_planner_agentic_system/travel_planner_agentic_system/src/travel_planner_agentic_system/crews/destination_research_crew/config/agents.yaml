@@ -14,7 +14,7 @@ destination_researcher:
 
 travel_cost_analyst:
   role: >
-    Travel Budget and Cost Analysis Expert  
+    Travel Budget and Cost Analysis Expert
   goal: >
     Analyze and estimate travel costs for {destination} including accommodation,
     food, transportation, and activities for {travelers_count} travelers with 

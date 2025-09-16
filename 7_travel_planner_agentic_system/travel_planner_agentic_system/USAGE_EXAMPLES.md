@@ -65,6 +65,7 @@ python main.py --default
 ```
 
 This uses pre-configured values:
+
 - Destination: Tokyo, Japan
 - Dates: 2024-03-15 to 2024-03-22
 - Budget: $2000
@@ -81,6 +82,7 @@ python main.py --plot
 ```
 
 This generates a visual diagram showing:
+
 1. Destination Research → Itinerary Planning → Plan Finalization → Save Results
 
 ## 🧪 Testing Input Functionality
@@ -92,6 +94,7 @@ python test_input.py
 ```
 
 This is useful for:
+
 - Testing user input validation
 - Debugging input collection
 - Understanding the data structure
@@ -101,9 +104,11 @@ This is useful for:
 The system generates two files for each travel plan:
 
 ### JSON File (Machine Readable)
+
 `travel_plan_[destination]_[date].json`
 
 Contains complete structured data:
+
 ```json
 {
   "request": {
@@ -127,13 +132,16 @@ Contains complete structured data:
 ```
 
 ### Markdown File (Human Readable)
+
 `travel_plan_[destination]_[date].md`
 
 Formatted for easy reading:
+
 ```markdown
 # Travel Plan: Paris, France
 
 ## Trip Overview
+
 - **Destination**: Paris, France
 - **Dates**: 2024-05-10 to 2024-05-15
 - **Duration**: 6 days
@@ -144,9 +152,11 @@ Formatted for easy reading:
 ## Daily Itinerary
 
 ### Day 1 - 2024-05-10
-*Day 1 activities focused on logistics experiences*
+
+_Day 1 activities focused on logistics experiences_
 
 - **Arrival and Check-in**
+
   - Arrive at destination and check into accommodation
   - Duration: 2 hours
   - Location: Airport/Hotel
@@ -160,6 +170,7 @@ Formatted for easy reading:
 ## 🎨 Customization Examples
 
 ### Beach Vacation Example
+
 ```
 Destination: Maldives
 Dates: 2024-06-01 to 2024-06-07
@@ -170,6 +181,7 @@ Preferences: Beach activities, water sports, spa treatments, sunset dining
 ```
 
 ### Adventure Trip Example
+
 ```
 Destination: Nepal, Kathmandu
 Dates: 2024-09-15 to 2024-09-25
@@ -180,6 +192,7 @@ Preferences: Hiking, mountain views, local culture, budget accommodation
 ```
 
 ### Family Cultural Tour
+
 ```
 Destination: Rome, Italy
 Dates: 2024-07-10 to 2024-07-17
@@ -190,6 +203,7 @@ Preferences: Historical sites, museums, family-friendly activities, authentic fo
 ```
 
 ### Business Trip with Leisure
+
 ```
 Destination: Singapore
 Dates: 2024-04-20 to 2024-04-25
@@ -205,7 +219,8 @@ Preferences: Business facilities, networking events, local cuisine, shopping
 
 2. **Realistic Budget**: Consider accommodation, meals, activities, and transportation
 
-3. **Travel Style Matching**: 
+3. **Travel Style Matching**:
+
    - Cultural: Museums, historical sites, local traditions
    - Adventurous: Outdoor activities, sports, exploration
    - Luxury: High-end hotels, fine dining, premium experiences

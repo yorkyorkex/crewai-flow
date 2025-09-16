@@ -16,6 +16,7 @@ A comprehensive AI-powered travel planning system built with CrewAI Flows. This 
 The system follows a Flow-based architecture with specialized crews:
 
 ### Flow Structure
+
 1. **Destination Research** → Research destination details, costs, and culture
 2. **Itinerary Planning** → Create detailed day-by-day plans
 3. **Plan Finalization** → Combine all information into comprehensive plan
@@ -24,11 +25,13 @@ The system follows a Flow-based architecture with specialized crews:
 ### Specialized Crews
 
 #### Destination Research Crew
+
 - **Destination Researcher**: Comprehensive destination information
-- **Travel Cost Analyst**: Budget analysis and cost estimation  
+- **Travel Cost Analyst**: Budget analysis and cost estimation
 - **Cultural Advisor**: Local customs and cultural insights
 
 #### Itinerary Planning Crew
+
 - **Itinerary Planner**: Overall trip structure and daily themes
 - **Activity Specialist**: Specific activities and experiences
 - **Logistics Coordinator**: Transportation and timing optimization
@@ -68,6 +71,7 @@ pip install uv
 Next, navigate to your project directory and install the dependencies:
 
 (Optional) Lock the dependencies and install them by using the CLI command:
+
 ```bash
 crewai install
 ```
@@ -91,6 +95,7 @@ python test_input.py
 ```
 
 The system will prompt you for:
+
 - 🗺️ Destination (e.g., "Tokyo, Japan")
 - 📅 Travel dates (start and end)
 - 💰 Budget in USD
@@ -120,7 +125,7 @@ flow = TravelPlannerFlow()
 # Set your travel request
 flow.state.travel_request = TravelRequest(
     destination="Tokyo, Japan",
-    start_date="2024-04-01", 
+    start_date="2024-04-01",
     end_date="2024-04-07",
     budget=1500.0,
     travelers_count=2,
@@ -166,7 +171,9 @@ crewai run
 ## 📊 Data Models
 
 ### TravelRequest
+
 User's travel requirements and preferences:
+
 - `destination`: Where to travel
 - `start_date` / `end_date`: Travel dates
 - `budget`: Total budget
@@ -175,7 +182,9 @@ User's travel requirements and preferences:
 - `travel_style`: "cultural", "adventurous", "luxury", "relaxed"
 
 ### TravelPlan
+
 Complete travel plan output:
+
 - `request`: Original travel request
 - `destination_info`: Researched destination details
 - `itinerary`: Day-by-day travel itinerary

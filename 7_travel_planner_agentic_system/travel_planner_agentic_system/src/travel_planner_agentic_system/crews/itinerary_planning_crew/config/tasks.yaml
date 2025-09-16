@@ -7,7 +7,7 @@ plan_daily_structure:
     3. Balance between intensive sightseeing and relaxation
     4. Budget allocation across different days
     5. Traveler preferences: {preferences}
-    
+
     Use the destination information: {destination_info} to inform your planning.
   expected_output: >
     A day-by-day framework with themes for each day (e.g., "Historical Tokyo", "Modern Culture Day"),
@@ -23,7 +23,7 @@ curate_activities:
     4. Consider opening hours, seasonal factors, and crowd levels
     5. Include dining recommendations and cultural experiences
     6. Stay within the daily budget constraints
-    
+
     Base selections on destination information: {destination_info}
   expected_output: >
     Detailed list of specific activities for each day including attractions, restaurants,
@@ -40,7 +40,7 @@ optimize_logistics:
     5. Potential weather considerations
     6. Energy levels and pacing throughout each day
     7. Buffer time for unexpected delays or spontaneous discoveries
-    
+
     Create a realistic, well-timed schedule that travelers can actually follow.
   expected_output: >
     Optimized daily schedules with specific timing, transportation suggestions,
@@ -57,7 +57,7 @@ compile_itinerary:
     5. Practical tips and important reminders
     6. Emergency contacts and useful local information
     7. Alternative options for weather or other contingencies
-    
+
     Ensure the final itinerary matches the TravelItinerary data model structure.
   expected_output: >
     Complete travel itinerary in JSON format with all daily plans, activities, costs,
