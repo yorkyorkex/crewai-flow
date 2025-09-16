@@ -1,0 +1,167 @@
+{
+  "request": {
+    "destination": "Taiwan, Taipei",
+    "start_date": "2025-09-30",
+    "end_date": "2025-10-3",
+    "budget": 999999.0,
+    "travelers_count": 10,
+    "preferences": "eat car love",
+    "travel_style": "luxury"
+  },
+  "destination_info": {
+    "name": "Taiwan, Taipei",
+    "description": "A wonderful travel destination with rich culture and attractions",
+    "best_time_to_visit": "Year-round",
+    "climate": "Pleasant climate",
+    "currency": "Local currency",
+    "language": "Local language",
+    "attractions": [
+      "Popular attractions",
+      "Cultural sites",
+      "Local landmarks"
+    ],
+    "estimated_daily_budget": 80.0
+  },
+  "itinerary": {
+    "destination": "Taiwan, Taipei",
+    "start_date": "2025-09-30",
+    "end_date": "2025-10-3",
+    "total_days": 4,
+    "daily_plans": [
+      {
+        "day": 1,
+        "date": "2025-09-30",
+        "activities": [
+          {
+            "name": "Arrival and Check-in",
+            "description": "Arrive at destination and check into accommodation",
+            "duration": "2 hours",
+            "cost": 0.0,
+            "location": "Airport/Hotel",
+            "category": "logistics"
+          },
+          {
+            "name": "Welcome dinner",
+            "description": "Enjoy local cuisine at nearby restaurant",
+            "duration": "2 hours",
+            "cost": 40.0,
+            "location": "Near hotel",
+            "category": "dining"
+          }
+        ],
+        "total_estimated_cost": 40.0,
+        "notes": "Day 1 activities focused on logistics experiences"
+      },
+      {
+        "day": 2,
+        "date": "2025-10-01",
+        "activities": [
+          {
+            "name": "Morning activity - Day 2",
+            "description": "Explore cultural attractions and landmarks",
+            "duration": "3 hours",
+            "cost": 20.0,
+            "location": "City center",
+            "category": "cultural"
+          },
+          {
+            "name": "Local lunch",
+            "description": "Try authentic local cuisine",
+            "duration": "1 hour",
+            "cost": 15.0,
+            "location": "Local district",
+            "category": "dining"
+          },
+          {
+            "name": "Afternoon exploration - Day 2",
+            "description": "Visit markets, parks, or museums",
+            "duration": "3 hours",
+            "cost": 25.0,
+            "location": "Various locations",
+            "category": "sightseeing"
+          }
+        ],
+        "total_estimated_cost": 60.0,
+        "notes": "Day 2 activities focused on cultural experiences"
+      },
+      {
+        "day": 3,
+        "date": "2025-10-02",
+        "activities": [
+          {
+            "name": "Morning activity - Day 3",
+            "description": "Explore cultural attractions and landmarks",
+            "duration": "3 hours",
+            "cost": 20.0,
+            "location": "City center",
+            "category": "cultural"
+          },
+          {
+            "name": "Local lunch",
+            "description": "Try authentic local cuisine",
+            "duration": "1 hour",
+            "cost": 15.0,
+            "location": "Local district",
+            "category": "dining"
+          },
+          {
+            "name": "Afternoon exploration - Day 3",
+            "description": "Visit markets, parks, or museums",
+            "duration": "3 hours",
+            "cost": 25.0,
+            "location": "Various locations",
+            "category": "sightseeing"
+          }
+        ],
+        "total_estimated_cost": 60.0,
+        "notes": "Day 3 activities focused on cultural experiences"
+      },
+      {
+        "day": 4,
+        "date": "2025-10-03",
+        "activities": [
+          {
+            "name": "Morning activity - Day 4",
+            "description": "Explore cultural attractions and landmarks",
+            "duration": "3 hours",
+            "cost": 20.0,
+            "location": "City center",
+            "category": "cultural"
+          },
+          {
+            "name": "Local lunch",
+            "description": "Try authentic local cuisine",
+            "duration": "1 hour",
+            "cost": 15.0,
+            "location": "Local district",
+            "category": "dining"
+          },
+          {
+            "name": "Afternoon exploration - Day 4",
+            "description": "Visit markets, parks, or museums",
+            "duration": "3 hours",
+            "cost": 25.0,
+            "location": "Various locations",
+            "category": "sightseeing"
+          }
+        ],
+        "total_estimated_cost": 60.0,
+        "notes": "Day 4 activities focused on cultural experiences"
+      }
+    ],
+    "total_estimated_budget": 220.0,
+    "travel_tips": [
+      "Research local customs and etiquette before arrival",
+      "Keep copies of important documents",
+      "Learn basic phrases in the local language",
+      "Stay connected with local SIM or international roaming",
+      "Respect local dress codes and cultural norms"
+    ],
+    "emergency_contacts": [
+      "Local emergency services",
+      "Tourist information hotline",
+      "Embassy contact information"
+    ]
+  },
+  "summary": "Complete 4-day travel plan for Taiwan, Taipei from 2025-09-30 to 2025-10-3. Estimated budget: $220.0"
+}

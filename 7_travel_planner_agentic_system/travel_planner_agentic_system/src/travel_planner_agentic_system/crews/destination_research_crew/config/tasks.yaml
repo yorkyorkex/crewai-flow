@@ -1,0 +1,59 @@
+research_destination_overview:
+  description: >
+    Research comprehensive information about {destination} including:
+    1. General description and overview
+    2. Best time to visit considering the travel dates {travel_dates}
+    3. Climate and weather patterns
+    4. Currency and language information
+    5. Top 5-10 must-see attractions and landmarks
+    6. Cultural highlights and unique experiences
+    Make sure to provide accurate, up-to-date information.
+  expected_output: >
+    A detailed destination overview with description, best visiting times, climate info,
+    currency, language, and a list of top attractions. Format as structured data that
+    can be easily processed.
+  agent: destination_researcher
+
+analyze_travel_costs:
+  description: >
+    Analyze and estimate daily travel costs for {destination} for {travelers_count} travelers
+    considering their preferences: {preferences} and total budget of ${budget}.
+    Break down costs for:
+    1. Accommodation (different price ranges)
+    2. Food and dining (local vs tourist areas)  
+    3. Local transportation
+    4. Attraction entry fees
+    5. Shopping and miscellaneous expenses
+    Provide realistic daily budget estimates.
+  expected_output: >
+    Detailed cost breakdown with estimated daily budget per person, total trip cost estimates,
+    and budget-saving tips. Include different budget levels (budget, mid-range, luxury).
+  agent: travel_cost_analyst
+
+provide_cultural_insights:
+  description: >
+    Provide cultural insights and practical advice for visiting {destination}:
+    1. Local customs and etiquette
+    2. Cultural do's and don'ts  
+    3. Language basics and useful phrases
+    4. Tipping customs and social norms
+    5. Safety considerations and local laws
+    6. Best ways to interact with locals
+    7. Cultural experiences not to miss
+    Focus on helping travelers be respectful and culturally aware.
+  expected_output: >
+    Comprehensive cultural guide with customs, etiquette tips, language basics,
+    safety advice, and recommendations for authentic cultural experiences.
+  agent: cultural_advisor
+
+compile_destination_research:
+  description: >
+    Compile all research findings into a comprehensive destination information report
+    that combines insights from destination research, cost analysis, and cultural advice.
+    Create a cohesive summary that will be used for travel planning.
+    Include practical tips, emergency contacts, and final recommendations.
+  expected_output: >
+    A complete destination research report in JSON format containing all key information:
+    destination details, cost estimates, cultural insights, practical tips, and recommendations.
+    This should match the DestinationInfo data model structure.
+  agent: destination_researcher

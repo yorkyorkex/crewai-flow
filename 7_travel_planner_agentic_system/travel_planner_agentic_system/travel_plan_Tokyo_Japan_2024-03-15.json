@@ -1,0 +1,295 @@
+{
+  "request": {
+    "destination": "Tokyo, Japan",
+    "start_date": "2024-03-15",
+    "end_date": "2024-03-22",
+    "budget": 2000.0,
+    "travelers_count": 2,
+    "preferences": "We love cultural experiences, local food, and historical sites",
+    "travel_style": "cultural"
+  },
+  "destination_info": {
+    "name": "Tokyo, Japan",
+    "description": "A wonderful travel destination with rich culture and attractions",
+    "best_time_to_visit": "Year-round",
+    "climate": "Pleasant climate",
+    "currency": "Local currency",
+    "language": "Local language",
+    "attractions": [
+      "Popular attractions",
+      "Cultural sites",
+      "Local landmarks"
+    ],
+    "estimated_daily_budget": 80.0
+  },
+  "itinerary": {
+    "destination": "Tokyo, Japan",
+    "start_date": "2024-03-15",
+    "end_date": "2024-03-22",
+    "total_days": 8,
+    "daily_plans": [
+      {
+        "day": 1,
+        "date": "2024-03-15",
+        "activities": [
+          {
+            "name": "Arrival and Check-in",
+            "description": "Arrive at destination and check into accommodation",
+            "duration": "2 hours",
+            "cost": 0.0,
+            "location": "Airport/Hotel",
+            "category": "logistics"
+          },
+          {
+            "name": "Welcome dinner",
+            "description": "Enjoy local cuisine at nearby restaurant",
+            "duration": "2 hours",
+            "cost": 40.0,
+            "location": "Near hotel",
+            "category": "dining"
+          }
+        ],
+        "total_estimated_cost": 40.0,
+        "notes": "Day 1 activities focused on logistics experiences"
+      },
+      {
+        "day": 2,
+        "date": "2024-03-16",
+        "activities": [
+          {
+            "name": "Morning activity - Day 2",
+            "description": "Explore cultural attractions and landmarks",
+            "duration": "3 hours",
+            "cost": 20.0,
+            "location": "City center",
+            "category": "cultural"
+          },
+          {
+            "name": "Local lunch",
+            "description": "Try authentic local cuisine",
+            "duration": "1 hour",
+            "cost": 15.0,
+            "location": "Local district",
+            "category": "dining"
+          },
+          {
+            "name": "Afternoon exploration - Day 2",
+            "description": "Visit markets, parks, or museums",
+            "duration": "3 hours",
+            "cost": 25.0,
+            "location": "Various locations",
+            "category": "sightseeing"
+          }
+        ],
+        "total_estimated_cost": 60.0,
+        "notes": "Day 2 activities focused on cultural experiences"
+      },
+      {
+        "day": 3,
+        "date": "2024-03-17",
+        "activities": [
+          {
+            "name": "Morning activity - Day 3",
+            "description": "Explore cultural attractions and landmarks",
+            "duration": "3 hours",
+            "cost": 20.0,
+            "location": "City center",
+            "category": "cultural"
+          },
+          {
+            "name": "Local lunch",
+            "description": "Try authentic local cuisine",
+            "duration": "1 hour",
+            "cost": 15.0,
+            "location": "Local district",
+            "category": "dining"
+          },
+          {
+            "name": "Afternoon exploration - Day 3",
+            "description": "Visit markets, parks, or museums",
+            "duration": "3 hours",
+            "cost": 25.0,
+            "location": "Various locations",
+            "category": "sightseeing"
+          }
+        ],
+        "total_estimated_cost": 60.0,
+        "notes": "Day 3 activities focused on cultural experiences"
+      },
+      {
+        "day": 4,
+        "date": "2024-03-18",
+        "activities": [
+          {
+            "name": "Morning activity - Day 4",
+            "description": "Explore cultural attractions and landmarks",
+            "duration": "3 hours",
+            "cost": 20.0,
+            "location": "City center",
+            "category": "cultural"
+          },
+          {
+            "name": "Local lunch",
+            "description": "Try authentic local cuisine",
+            "duration": "1 hour",
+            "cost": 15.0,
+            "location": "Local district",
+            "category": "dining"
+          },
+          {
+            "name": "Afternoon exploration - Day 4",
+            "description": "Visit markets, parks, or museums",
+            "duration": "3 hours",
+            "cost": 25.0,
+            "location": "Various locations",
+            "category": "sightseeing"
+          }
+        ],
+        "total_estimated_cost": 60.0,
+        "notes": "Day 4 activities focused on cultural experiences"
+      },
+      {
+        "day": 5,
+        "date": "2024-03-19",
+        "activities": [
+          {
+            "name": "Morning activity - Day 5",
+            "description": "Explore cultural attractions and landmarks",
+            "duration": "3 hours",
+            "cost": 20.0,
+            "location": "City center",
+            "category": "cultural"
+          },
+          {
+            "name": "Local lunch",
+            "description": "Try authentic local cuisine",
+            "duration": "1 hour",
+            "cost": 15.0,
+            "location": "Local district",
+            "category": "dining"
+          },
+          {
+            "name": "Afternoon exploration - Day 5",
+            "description": "Visit markets, parks, or museums",
+            "duration": "3 hours",
+            "cost": 25.0,
+            "location": "Various locations",
+            "category": "sightseeing"
+          }
+        ],
+        "total_estimated_cost": 60.0,
+        "notes": "Day 5 activities focused on cultural experiences"
+      },
+      {
+        "day": 6,
+        "date": "2024-03-20",
+        "activities": [
+          {
+            "name": "Morning activity - Day 6",
+            "description": "Explore cultural attractions and landmarks",
+            "duration": "3 hours",
+            "cost": 20.0,
+            "location": "City center",
+            "category": "cultural"
+          },
+          {
+            "name": "Local lunch",
+            "description": "Try authentic local cuisine",
+            "duration": "1 hour",
+            "cost": 15.0,
+            "location": "Local district",
+            "category": "dining"
+          },
+          {
+            "name": "Afternoon exploration - Day 6",
+            "description": "Visit markets, parks, or museums",
+            "duration": "3 hours",
+            "cost": 25.0,
+            "location": "Various locations",
+            "category": "sightseeing"
+          }
+        ],
+        "total_estimated_cost": 60.0,
+        "notes": "Day 6 activities focused on cultural experiences"
+      },
+      {
+        "day": 7,
+        "date": "2024-03-21",
+        "activities": [
+          {
+            "name": "Morning activity - Day 7",
+            "description": "Explore cultural attractions and landmarks",
+            "duration": "3 hours",
+            "cost": 20.0,
+            "location": "City center",
+            "category": "cultural"
+          },
+          {
+            "name": "Local lunch",
+            "description": "Try authentic local cuisine",
+            "duration": "1 hour",
+            "cost": 15.0,
+            "location": "Local district",
+            "category": "dining"
+          },
+          {
+            "name": "Afternoon exploration - Day 7",
+            "description": "Visit markets, parks, or museums",
+            "duration": "3 hours",
+            "cost": 25.0,
+            "location": "Various locations",
+            "category": "sightseeing"
+          }
+        ],
+        "total_estimated_cost": 60.0,
+        "notes": "Day 7 activities focused on cultural experiences"
+      },
+      {
+        "day": 8,
+        "date": "2024-03-22",
+        "activities": [
+          {
+            "name": "Morning activity - Day 8",
+            "description": "Explore cultural attractions and landmarks",
+            "duration": "3 hours",
+            "cost": 20.0,
+            "location": "City center",
+            "category": "cultural"
+          },
+          {
+            "name": "Local lunch",
+            "description": "Try authentic local cuisine",
+            "duration": "1 hour",
+            "cost": 15.0,
+            "location": "Local district",
+            "category": "dining"
+          },
+          {
+            "name": "Afternoon exploration - Day 8",
+            "description": "Visit markets, parks, or museums",
+            "duration": "3 hours",
+            "cost": 25.0,
+            "location": "Various locations",
+            "category": "sightseeing"
+          }
+        ],
+        "total_estimated_cost": 60.0,
+        "notes": "Day 8 activities focused on cultural experiences"
+      }
+    ],
+    "total_estimated_budget": 460.0,
+    "travel_tips": [
+      "Research local customs and etiquette before arrival",
+      "Keep copies of important documents",
+      "Learn basic phrases in the local language",
+      "Stay connected with local SIM or international roaming",
+      "Respect local dress codes and cultural norms"
+    ],
+    "emergency_contacts": [
+      "Local emergency services",
+      "Tourist information hotline",
+      "Embassy contact information"
+    ]
+  },
+  "summary": "Complete 8-day travel plan for Tokyo, Japan from 2024-03-15 to 2024-03-22. Estimated budget: $460.0"
+}

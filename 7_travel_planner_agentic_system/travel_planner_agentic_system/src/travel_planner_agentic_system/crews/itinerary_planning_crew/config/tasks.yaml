@@ -1,0 +1,65 @@
+plan_daily_structure:
+  description: >
+    Create the overall structure for each day of the trip from {start_date} to {end_date}
+    in {destination}. Consider:
+    1. Number of total days and optimal daily pacing
+    2. Logical geographical grouping of areas to visit
+    3. Balance between intensive sightseeing and relaxation
+    4. Budget allocation across different days
+    5. Traveler preferences: {preferences}
+    
+    Use the destination information: {destination_info} to inform your planning.
+  expected_output: >
+    A day-by-day framework with themes for each day (e.g., "Historical Tokyo", "Modern Culture Day"),
+    geographical focus areas, and rough budget allocation per day.
+  agent: itinerary_planner
+
+curate_activities:
+  description: >
+    For each day planned, select specific activities, attractions, and experiences that:
+    1. Align with the day's theme and geographical focus
+    2. Match traveler preferences: {preferences}
+    3. Provide a good mix of must-see attractions and authentic local experiences
+    4. Consider opening hours, seasonal factors, and crowd levels
+    5. Include dining recommendations and cultural experiences
+    6. Stay within the daily budget constraints
+    
+    Base selections on destination information: {destination_info}
+  expected_output: >
+    Detailed list of specific activities for each day including attractions, restaurants,
+    experiences, with brief descriptions, estimated costs, and duration for each activity.
+  agent: activity_specialist
+
+optimize_logistics:
+  description: >
+    Optimize the logistics and timing for each day's activities considering:
+    1. Realistic travel times between locations
+    2. Opening hours and best visiting times
+    3. Meal times and rest periods
+    4. Transportation options and costs
+    5. Potential weather considerations
+    6. Energy levels and pacing throughout each day
+    7. Buffer time for unexpected delays or spontaneous discoveries
+    
+    Create a realistic, well-timed schedule that travelers can actually follow.
+  expected_output: >
+    Optimized daily schedules with specific timing, transportation suggestions,
+    practical tips, and realistic activity sequencing for each day.
+  agent: logistics_coordinator
+
+compile_itinerary:
+  description: >
+    Compile all planning elements into a comprehensive travel itinerary that includes:
+    1. Complete day-by-day schedule with activities, timing, and costs
+    2. Transportation recommendations between activities
+    3. Dining suggestions and meal planning
+    4. Total estimated costs per day and for the entire trip
+    5. Practical tips and important reminders
+    6. Emergency contacts and useful local information
+    7. Alternative options for weather or other contingencies
+    
+    Ensure the final itinerary matches the TravelItinerary data model structure.
+  expected_output: >
+    Complete travel itinerary in JSON format with all daily plans, activities, costs,
+    tips, and practical information formatted according to the TravelItinerary data model.
+  agent: itinerary_planner
